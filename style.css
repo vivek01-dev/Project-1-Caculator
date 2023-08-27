@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Raleway:wght@200&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bebebe;
+}
+
+.container{
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 10px 20px 20px;
+    background-color: #000000c2;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.5);
+    color: white;
+}
+
+h5{
+    margin-bottom: 8px;
+    color: rgb(255, 145, 0);
+}
+
+.display{
+    height: 80px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    font-size: 30px;
+    outline: none;
+    border: none;
+    text-align: right;
+    color: rgb(255, 255, 255);
+    pointer-events: none;
+    border: 1px solid rgb(255, 206, 116);
+    padding: 10px;
+    background-color: #0e0e0e;
+}
+
+.buttons{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.buttons button{
+    padding: 10px;
+    border:  none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 20px;
+    border: 1px solid rgb(255, 206, 116);
+}
+.buttons button:hover{
+    font-weight: bold;
+}
+/* 
+.buttons button :active{
+    transform: rotate(0.99);
+} */
+
+.operator{
+    color: rgb(255, 145, 0);
+    
+}
